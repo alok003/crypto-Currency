@@ -20,9 +20,6 @@ const Plotter = () => {
         setgraphTV(response.data.total_volumes);
       };
       fetchC();
-      console.log("a1" + graphP);
-      console.log("a2" + graphMC);
-      console.log("a3" + graphTV);
       // setFetchD(false)
     
   }, [graphP, graphMC, graphTV]);
